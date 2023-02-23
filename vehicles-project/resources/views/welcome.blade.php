@@ -6,6 +6,7 @@
 
         <title>Livewire Counter Example</title>
 
+        @vite(['resources/css/app.css', 'resources/css/app.css'])
         <!-- Include Livewire Styles -->
         <livewire:styles/>
     </head>

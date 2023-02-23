@@ -1,5 +1,5 @@
-<div style="text-align: center">
-    <button wire:click="increment">+</button>
-    <span><h1>{{$count}}</h1></span>
-    <button wire:click="decrement">-</button>
+<div class="p-16 flex justify-center gap-6 items-center">
+    <button wire:click="increment" class="py-2 px-4 bg-indigo-500 hover:bg-indigo-600 rounded text-white">+</button>
+    {{ $count }}
+    <button wire:click="decrement" class="py-2 px-4 bg-indigo-500 hover:bg-indigo-600 rounded text-white">-</button>
 </div>
