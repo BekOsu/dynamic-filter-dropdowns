@@ -20,4 +20,10 @@ Route::get('/', function () {
 Route::get('/calculator', function () {
     return view('calculator');
 });
+
+Route::get('/todolist', function () {
+    return view('todolist');
+});
+
+
 //Route::get('/calculatorr', \App\Http\Livewire\Calculator::class)->name('calculatorr');
