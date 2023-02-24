@@ -25,5 +25,9 @@ Route::get('/todolist', function () {
     return view('todolist');
 });
 
+Route::get('/Dropdowns', function () {
+    return view('cascading-dropdowns');
+});
 
-//Route::get('/calculatorr', \App\Http\Livewire\Calculator::class)->name('calculatorr');
+
+//Route::get('/calculator', \App\Http\Livewire\calculator::class)->name('calculator');
